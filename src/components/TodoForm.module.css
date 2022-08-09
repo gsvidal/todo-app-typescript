@@ -1,0 +1,24 @@
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid rgb(182, 141, 141);
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: rgb(228, 185, 185);
+}
+
+button {
+  display: block;
+  padding: 8px 12px;
+  margin: 10px auto;
+  background-color: rgb(121, 81, 233);
+  border: 1px solid rgb(253, 161, 161);
+  border-radius: 5px;
+  color: rgb(255, 223, 223);
+}
