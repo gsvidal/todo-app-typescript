@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todo-app-typescript/static/css/main.bc9fa5a3.css",
+    "main.js": "/todo-app-typescript/static/js/main.a5a83c8b.js",
+    "index.html": "/todo-app-typescript/index.html",
+    "static/media/delete.svg": "/todo-app-typescript/static/media/delete.bba7f8a90befcbd8f9c0.svg",
+    "main.bc9fa5a3.css.map": "/todo-app-typescript/static/css/main.bc9fa5a3.css.map",
+    "main.a5a83c8b.js.map": "/todo-app-typescript/static/js/main.a5a83c8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc9fa5a3.css",
+    "static/js/main.a5a83c8b.js"
+  ]
+}
