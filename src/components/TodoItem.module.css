@@ -10,11 +10,15 @@
 
 .icon-delete {
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 20px;
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url('../assets/icons/edit.svg') center/cover no-repeat;
+  background: url('../assets/icons/delete.svg') center/cover no-repeat;
   cursor: pointer;
+}
+
+.icon-delete:hover {
+  filter: invert(31%) sepia(95%) saturate(6388%) hue-rotate(353deg) brightness(96%) contrast(126%);
 }

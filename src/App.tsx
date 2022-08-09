@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="app">
       <TodosContextProvider>
+        <h1>Todo List App</h1>
         <TodoForm />
         <Todos />
       </TodosContextProvider>
