@@ -21,4 +21,5 @@ button {
   border: 1px solid rgb(253, 161, 161);
   border-radius: 5px;
   color: rgb(255, 223, 223);
+  cursor: pointer;
 }

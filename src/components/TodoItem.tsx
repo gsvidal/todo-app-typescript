@@ -10,8 +10,9 @@ export const TodoItem: React.FC<{
   };
 
   return (
-    <li onClick={() => clickHandler(props.id)} className={classes.item}>
+    <li className={classes.item}>
       {props.text}
+      <span className={classes['icon-delete']} onClick={() => clickHandler(props.id)}></span>
     </li>
   );
 };

@@ -1,8 +1,11 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useContext } from 'react';
 import classes from './TodoForm.module.css';
 import { Error } from '../models/error';
+import { TodosContext } from '../store/todos-context';
 
-export const TodoForm: React.FC<{ onAddTodo: (text: string) => void }> = (props) => {
+export const TodoForm: React.FC = () => {
+  const todosCtx = useContext(TodosContext);
+
   const todoTextInputRef = useRef<HTMLInputElement>(null);
 
   const [error, setError] = useState<Error>({ state: false });
@@ -18,7 +21,7 @@ export const TodoForm: React.FC<{ onAddTodo: (text: string) => void }> = (props)
       return;
     }
 
-    props.onAddTodo(enteredText);
+    todosCtx.addTodo(enteredText);
     const newError = new Error(false);
     setError(newError);
   };
