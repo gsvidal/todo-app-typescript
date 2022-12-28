@@ -27,7 +27,7 @@ export const TodoForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={submitHandler}>
+    <form onSubmit={submitHandler} className="form">
       <label htmlFor="text">Todo Text:</label>
       <input className={classes.input} type="text" id="text" ref={todoTextInputRef} placeholder="Here goes your todo" />
       {error.state && <p>Todo field must be valid!</p>}
